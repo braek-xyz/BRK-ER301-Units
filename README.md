@@ -36,22 +36,20 @@ Tested by BRAEK on firmware 0.7.0-stolemine 9.5.2.
 
 Rough figures from BRAEK's ER-301: BRK Tapz about 8 %, BRK Repeats about 16 %, BRK Lazers about 68 % at POLY 8 with a
 long tail (fewer voices or a shorter tail use less).
-Tip: on the ER-301, bypassing a unit does not stop it using CPU unless
+On the ER-301, bypassing a unit does not stop it using CPU unless
 *Settings > Units > "Does bypassing a unit also disable it?"* is set to **yes**.
 
-## Controls
+## User guide
 
-**BRK Tapz:** mix, len (echo length; note names when synced), taps (1-32), space, slope, fdbk, sprd,
-mode (0 CLASSIC, 1 PING-PONG, 2 BLOOM, 3 SWEEP, 4 SCATTER), filt, shuf, frz, hold, free (off = synced), clock, div.
+Start here, then read the page for each unit:
 
-**BRK Repeats:** mix, time (cycle length; note names when synced), rpts (1-16), pos, braek, wonk, dmg, frz, hold,
-free (off = synced), clock, div.
+- **[Getting started](guide/getting-started.md)**: adding a unit, knobs and gates, clock and sync, CPU tips
+- **[BRK Tapz guide](guide/brk-tapz.md)**: every control, the five spread modes, patch ideas
+- **[BRK Repeats guide](guide/brk-repeats.md)**: every control, how slicing works, patch ideas
+- **[BRK Lazers guide](guide/brk-lazers.md)**: every control, the 9 tail modes, all 64 sounds, patch ideas
 
-**BRK Lazers:** trig, V/oct, vel, slot (1-64), pitch, att, dec, tail, tmode (0 RING, 1 METAL, 2 BELL, 3 DRUM, 4 BOOM,
-5 STRING, 6 AIR, 7 RESONATE, 8 AUTO), tone, noise, fm, ratio, index, res, drive, crush, pan, width, level,
-poly (1-16), rand.
-
-With no clock patched, Tapz and Repeats run at 120 BPM. `div` divides the incoming clock (24 = 24 PPQN).
+Quick tip: BRK Tapz and BRK Repeats start with `mix` at 0 (dry), so turn `mix` up to hear them.
+BRK Lazers needs a trigger in `trig` (or press its fire button) to make a sound.
 
 ## Terms
 
